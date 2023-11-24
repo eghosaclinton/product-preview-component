@@ -83,11 +83,16 @@ h1{
     gap: .85em;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .btn img{
     height: 1em;
     width: 1em;
+}
+
+.btn:hover{
+   background-color: hsl(157, 39%, 20%);
 }
 
 p{
