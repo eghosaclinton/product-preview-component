@@ -134,6 +134,8 @@ hr{
         display: inline-block;
         border-top-right-radius: 8.4448px;
         border-top-left-radius: 8.4448px;
+        height: 35svh;
+        /* align-self: flex-start; */
     }
 
     .container{
@@ -155,6 +157,8 @@ hr{
     .mid-container{
         width: 90%;
     }
+
+    
 } 
 
 @media (min-width: 768px) and (max-width: 1025px) {
